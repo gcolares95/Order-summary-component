@@ -1,0 +1,131 @@
+/* VARIABLES */
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  /* COLORS */
+  --cor1: hsl(225, 100%, 98%);
+  --cor2: hsl(224, 23%, 55%);
+  --cor3: hsl(223, 47%, 23%);
+  --cor4: hsl(245, 58%, 57%);
+  --cor5: hsl(245, 75%, 52%);
+}
+
+body {
+  font: 500 1rem 'Red Hat Display', sans-serif;
+  background: gray;
+}
+
+.grid {
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  width: 23.43rem;
+  height: 37rem;
+  background: var(--cor1);
+  border-radius: 15px;
+}
+
+.image .banner {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+header .text {
+  display: flex;
+  justify-content: center;
+}
+
+header .title {
+  position: relative;
+  top: 0.80rem;
+  color: var(--cor3);
+  font-weight: 00;
+}
+
+main .text p {
+  margin-top: 1rem;
+  text-align: center;
+  color:hsl(224, 23%, 55%);
+  line-height: 1.5rem;
+}
+
+.card {
+  position: relative;
+  margin-top: 1.1rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+
+  height: 4.5rem;
+  border-radius: 15px;
+  background: var(--cor1);
+}
+
+.card .items {
+  display: flex;
+  align-items: center;
+}
+
+.card .items .music-icon {
+  position: relative;
+  left: 1rem;
+}
+
+.card .items .plan-name {
+  position: relative;
+  left: 2.3rem;
+  font: 500 1rem 'Red Hat Display', sans-serif;
+  line-height: 1.3rem;
+  color: var(--cor2);
+}
+
+.card .items .plan-name span {
+  font: 700 1rem 'Red Hat Display', sans-serif;
+  color:var(--cor3);
+}
+
+.card .items .change {
+  position: relative;
+  left: 7rem;
+}
+
+.botao-1 {
+  margin-top: 1.4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.botao-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.pay {
+  background: var(--cor5);
+  color: var(--cor1);
+  display: inline-block;
+  text-align: center;
+  padding: 1.2rem 5.5rem;
+  font: 700 1rem 'Red Hat Display', sans-serif;
+  border-radius: 13px;
+  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.418);
+  transition: 0.3s;
+}
+
+.pay:hover {
+  background: var(--cor4);
+}
+
+.cancel {
+  margin-top: 1.5rem;
+  color: var(--cor2);
+  font: 700 1rem 'Red Hat Display', sans-serif;
+}
